@@ -12,17 +12,6 @@ public class MainActivity extends AppCompatActivity {
            super.onCreate(savedInstanceState);
            setContentView(R.layout.activity_main);
 
-     
-
-        facebook = (Button)findViewById(R.id.action_mail);
-        facebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent facebookIntent = openFacebook(MainActivity.this);
-                startActivity(facebookIntent);
-            }
-        });
-
     }
 
 
@@ -74,8 +63,9 @@ public class MainActivity extends AppCompatActivity {
 ဢၼ်ၼႆႉတႃႇႁွင်ႉၵႃႇတီႈ facebook
 
         if (id == R.id.action_mail) {
-            //ပိုတ်ႇ mailtActivity
-
+            //ပိုတ်ႇAboutActivity
+            Intent facebookIntent = openFacebook(MainActivity.this);
+            startActivity(facebookIntent);
             return true;
         }
 
