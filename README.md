@@ -1,5 +1,4 @@
-# Launch-Facebook-App-on-Button-click-from-Any-Android-Application
-
+# Button-click-from-action-bar
 ၶူတ်ႉဢၼ်ၼႆႉပုၼ်ႈတႃႇႁွင်ႉၸႂ်ႉ icon တီႈၼိူဝ် tab bar ၼၼ်ႉ  
 
 public class MainActivity extends AppCompatActivity {
