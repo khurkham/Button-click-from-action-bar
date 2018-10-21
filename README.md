@@ -27,17 +27,18 @@ public class MainActivity extends AppCompatActivity {
 
 
 //facebook
+
     public static Intent openFacebook(Context context) {
 
         try {
             context.getPackageManager()
                     .getPackageInfo("com.facebook.katana", 0);
             return new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("fb://page/376227335860239")); //လႆၢႈ ID မၼ်းၵူၺ်း
+                    Uri.parse("fb://page/533680283484205")); //လႆၢႈ ID မၼ်းၵူၺ်း
         } catch (Exception e){
 
             return new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://www.facebook.com/karthikofficialpage"));  //လႆၢႈၸိုဝ်ႈၽဵတ်ႉႁဝ်းၵူၺ်း
+                    Uri.parse("https://www.facebook.com/Khurkham"));  //လႆၢႈၸိုဝ်ႈၽဵတ်ႉႁဝ်းၵူၺ်း
         }
 
 
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         }
         
 ဢၼ်ၼႆႉတႃႇႁွင်ႉၵႃႇတီႈ facebook
+
         if (id == R.id.action_mail) {
             //ပိုတ်ႇ mailtActivity
 
